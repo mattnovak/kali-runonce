@@ -1,0 +1,9 @@
+kali:
+  hosts:
+    kali.local:
+      ansible_host: 10.0.0.X
+      become: true
+      ansible_connection: ssh 
+      ansible_user: kali
+      ansible_password: kali
+      ansible_become_user: root
